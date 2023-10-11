@@ -1,4 +1,15 @@
 
+@font-face {
+    font-family: kakao;
+    src: url("../fonts/KakaoBold.ttf");
+}
+
+* {
+    font-family: kakao;
+}
+
+
+
 a{
     color: black;
     text-decoration: none;
