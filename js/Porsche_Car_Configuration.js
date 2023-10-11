@@ -198,11 +198,11 @@ let option_indecator = () => {
       if (scroll1_y <= 200) {
 
         car_image = document.getElementById("car_image");
-        car_image.innerHTML = "<img src=../img/interior1.jpeg>"
+        car_image.innerHTML = "<img src=./img/interior1.jpeg>"
 
       }
       if(scroll1_y > 200) {
-        car_image.innerHTML = "<img src=../img/porsche-iris.jpg>"
+        car_image.innerHTML = "<img src=./img/porsche-iris.jpg>"
       }
       if (scroll1_y <= 200) {
         $('#scroll1_div').css({
@@ -243,11 +243,11 @@ let option_indecator = () => {
       if (scroll1_y <= 700) {
 
         car_image = document.getElementById("car_image");
-        car_image.innerHTML = "<img src=../img/interior1.jpeg>"
+        car_image.innerHTML = "<img src=./img/interior1.jpeg>"
 
       }
       else {
-        car_image.innerHTML = "<img src=../img/porsche-iris.jpg>"
+        car_image.innerHTML = "<img src=./img/porsche-iris.jpg>"
       }
       if (scroll1_y <= 700) {
         $('#scroll1_div').css({
